@@ -20,8 +20,8 @@ public class FizzBuzzGenerator {
 
     String output = "";
 
-    if (divisibleBy3) { output += "Fizz"; }
-    if (divisibleBy5) { output += "Buzz"; }
+    if (divisibleBy3) { output += "Buzz"; }
+    if (divisibleBy5) { output += "Fizz"; }
     if (output.isEmpty()) { output += Integer.toString(number); }
 
     return output;
