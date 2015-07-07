@@ -37,7 +37,7 @@ public class FizzBuzzGeneratorTest {
 
   @Test
   public void testGenerateWith10() {
-    assertEquals("10", m_fizzbuzz.generate(10));
+    assertEquals("Buzz", m_fizzbuzz.generate(10));
   }
 
   @Test
@@ -52,7 +52,7 @@ public class FizzBuzzGeneratorTest {
 
   @Test
   public void testGenerateWith41() {
-    assertEquals("Buzz", m_fizzbuzz.generate(41));
+    assertEquals("41", m_fizzbuzz.generate(41));
   }
 
   public FizzBuzzGenerator m_fizzbuzz;
