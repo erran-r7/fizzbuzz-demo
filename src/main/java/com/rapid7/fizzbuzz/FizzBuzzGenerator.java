@@ -10,6 +10,10 @@ package com.rapid7.fizzbuzz;
  * A simple FizzBuzzGenerator.
  */
 public class FizzBuzzGenerator {
+  /**
+   * @param number - the number to divide by
+   * @return - Fizz if divisible by 3, Buzz if divisible by 5, and the number otherwise.
+   */
   public String generate(int number) {
     boolean divisibleBy3 = (number % 3) == 0;
     boolean divisibleBy5 = (number % 5) == 0;
